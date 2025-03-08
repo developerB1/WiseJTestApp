@@ -1,0 +1,1411 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.8": {
+      "System.Data.SqlClient/4.9.0": {
+        "type": "package",
+        "compile": {
+          "lib/net462/System.Data.SqlClient.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net462/System.Data.SqlClient.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net462/_._": {}
+        }
+      },
+      "Wisej-2/2.5.32": {
+        "type": "package",
+        "compile": {
+          "lib/net48/Wisej.Framework.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net48/Wisej.Framework.dll": {
+            "related": ".xml"
+          }
+        },
+        "resource": {
+          "lib/net48/de/Wisej.Framework.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net48/es/Wisej.Framework.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net48/fr/Wisej.Framework.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net48/it/Wisej.Framework.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net48/pt/Wisej.Framework.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net48/tr/Wisej.Framework.resources.dll": {
+            "locale": "tr"
+          }
+        }
+      },
+      "Wisej-2-ElegantIcons/2.5.32": {
+        "type": "package",
+        "dependencies": {
+          "Wisej-2": "2.5.32"
+        },
+        "compile": {
+          "lib/net48/Wisej.Ext.ElegantIcons.dll": {}
+        },
+        "runtime": {
+          "lib/net48/Wisej.Ext.ElegantIcons.dll": {}
+        }
+      },
+      "Wisej-2-VisualStudioIcons/2.5.32": {
+        "type": "package",
+        "dependencies": {
+          "Wisej-2": "2.5.32"
+        },
+        "compile": {
+          "lib/net48/Wisej.Ext.VisualStudioIcons.dll": {}
+        },
+        "runtime": {
+          "lib/net48/Wisej.Ext.VisualStudioIcons.dll": {}
+        }
+      },
+      "Wisej-3/3.5.16": {
+        "type": "package",
+        "compile": {
+          "lib/net48/Wisej.Framework.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net48/Wisej.Framework.dll": {
+            "related": ".xml"
+          }
+        },
+        "resource": {
+          "lib/net48/de/Wisej.Framework.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net48/es/Wisej.Framework.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net48/fr/Wisej.Framework.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net48/it/Wisej.Framework.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net48/pt/Wisej.Framework.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net48/tr/Wisej.Framework.resources.dll": {
+            "locale": "tr"
+          }
+        }
+      },
+      "Wisej-3-BootstrapIcons/3.5.16": {
+        "type": "package",
+        "dependencies": {
+          "Wisej-3": "3.5.16"
+        },
+        "compile": {
+          "lib/net48/Wisej.Ext.BootstrapIcons.dll": {}
+        },
+        "runtime": {
+          "lib/net48/Wisej.Ext.BootstrapIcons.dll": {}
+        }
+      },
+      "Wisej-3-FontAwesome/3.5.16": {
+        "type": "package",
+        "dependencies": {
+          "Wisej-3": "3.5.16"
+        },
+        "compile": {
+          "lib/net48/Wisej.Ext.FontAwesome.dll": {}
+        },
+        "runtime": {
+          "lib/net48/Wisej.Ext.FontAwesome.dll": {}
+        }
+      },
+      "Wisej-3-NavigationBar/3.5.16": {
+        "type": "package",
+        "dependencies": {
+          "Wisej-3": "3.5.16"
+        },
+        "compile": {
+          "lib/net48/Wisej.Web.Ext.NavigationBar.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net48/Wisej.Web.Ext.NavigationBar.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Wisej-3-Notification/3.5.16": {
+        "type": "package",
+        "dependencies": {
+          "Wisej-3": "3.5.16"
+        },
+        "compile": {
+          "lib/net48/Wisej.Web.Ext.Notification.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net48/Wisej.Web.Ext.Notification.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    },
+    "net8.0": {
+      "Microsoft.CSharp/4.7.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
+        }
+      },
+      "Microsoft.Win32.SystemEvents/6.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Microsoft.Win32.SystemEvents.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Win32.SystemEvents.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "runtime.native.System.Data.SqlClient.sni/4.4.0": {
+        "type": "package",
+        "dependencies": {
+          "runtime.win-arm64.runtime.native.System.Data.SqlClient.sni": "4.4.0",
+          "runtime.win-x64.runtime.native.System.Data.SqlClient.sni": "4.4.0",
+          "runtime.win-x86.runtime.native.System.Data.SqlClient.sni": "4.4.0"
+        }
+      },
+      "runtime.win-arm64.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+        "type": "package",
+        "runtimeTargets": {
+          "runtimes/win-arm64/native/sni.dll": {
+            "assetType": "native",
+            "rid": "win-arm64"
+          }
+        }
+      },
+      "runtime.win-x64.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+        "type": "package",
+        "runtimeTargets": {
+          "runtimes/win-x64/native/sni.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          }
+        }
+      },
+      "runtime.win-x86.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+        "type": "package",
+        "runtimeTargets": {
+          "runtimes/win-x86/native/sni.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      },
+      "System.Configuration.ConfigurationManager/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Diagnostics.EventLog": "8.0.0",
+          "System.Security.Cryptography.ProtectedData": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/System.Configuration.ConfigurationManager.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Configuration.ConfigurationManager.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "System.Data.SqlClient/4.9.0": {
+        "type": "package",
+        "dependencies": {
+          "runtime.native.System.Data.SqlClient.sni": "4.4.0"
+        },
+        "compile": {
+          "lib/net8.0/System.Data.SqlClient.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Data.SqlClient.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/net8.0/System.Data.SqlClient.dll": {
+            "assetType": "runtime",
+            "rid": "unix"
+          },
+          "runtimes/win/lib/net8.0/System.Data.SqlClient.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "System.Diagnostics.EventLog/8.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.Diagnostics.EventLog.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Diagnostics.EventLog.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net8.0/System.Diagnostics.EventLog.Messages.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          },
+          "runtimes/win/lib/net8.0/System.Diagnostics.EventLog.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "System.Drawing.Common/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/System.Drawing.Common.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/System.Drawing.Common.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/net6.0/System.Drawing.Common.dll": {
+            "assetType": "runtime",
+            "rid": "unix"
+          },
+          "runtimes/win/lib/net6.0/System.Drawing.Common.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "System.Resources.Extensions/8.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.Resources.Extensions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Resources.Extensions.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "System.Runtime.Caching/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Configuration.ConfigurationManager": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/System.Runtime.Caching.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Runtime.Caching.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net8.0/System.Runtime.Caching.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "System.Security.Cryptography.ProtectedData/8.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.Security.Cryptography.ProtectedData.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Security.Cryptography.ProtectedData.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "Wisej-2/2.5.32": {
+        "type": "package",
+        "compile": {
+          "lib/net48/Wisej.Framework.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net48/Wisej.Framework.dll": {
+            "related": ".xml"
+          }
+        },
+        "resource": {
+          "lib/net48/de/Wisej.Framework.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net48/es/Wisej.Framework.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net48/fr/Wisej.Framework.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net48/it/Wisej.Framework.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net48/pt/Wisej.Framework.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net48/tr/Wisej.Framework.resources.dll": {
+            "locale": "tr"
+          }
+        }
+      },
+      "Wisej-2-ElegantIcons/2.5.32": {
+        "type": "package",
+        "dependencies": {
+          "Wisej-2": "2.5.32"
+        },
+        "compile": {
+          "lib/net48/Wisej.Ext.ElegantIcons.dll": {}
+        },
+        "runtime": {
+          "lib/net48/Wisej.Ext.ElegantIcons.dll": {}
+        }
+      },
+      "Wisej-2-VisualStudioIcons/2.5.32": {
+        "type": "package",
+        "dependencies": {
+          "Wisej-2": "2.5.32"
+        },
+        "compile": {
+          "lib/net48/Wisej.Ext.VisualStudioIcons.dll": {}
+        },
+        "runtime": {
+          "lib/net48/Wisej.Ext.VisualStudioIcons.dll": {}
+        }
+      },
+      "Wisej-3/3.5.16": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0",
+          "System.Drawing.Common": "6.0.0",
+          "System.Resources.Extensions": "8.0.0",
+          "System.Runtime.Caching": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/Wisej.Framework.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Wisej.Framework.dll": {
+            "related": ".xml"
+          }
+        },
+        "resource": {
+          "lib/net8.0/cs/Wisej.Framework.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/net8.0/de/Wisej.Framework.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net8.0/es/Wisej.Framework.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net8.0/fr/Wisej.Framework.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net8.0/it/Wisej.Framework.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net8.0/ja/Wisej.Framework.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net8.0/ko/Wisej.Framework.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net8.0/pl/Wisej.Framework.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/net8.0/pt-BR/Wisej.Framework.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net8.0/pt/Wisej.Framework.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net8.0/ru/Wisej.Framework.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net8.0/tr/Wisej.Framework.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net8.0/zh-Hans/Wisej.Framework.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/net8.0/zh-Hant/Wisej.Framework.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "Wisej-3-BootstrapIcons/3.5.16": {
+        "type": "package",
+        "dependencies": {
+          "Wisej-3": "3.5.16"
+        },
+        "compile": {
+          "lib/net8.0/Wisej.Ext.BootstrapIcons.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/Wisej.Ext.BootstrapIcons.dll": {}
+        }
+      },
+      "Wisej-3-FontAwesome/3.5.16": {
+        "type": "package",
+        "dependencies": {
+          "Wisej-3": "3.5.16"
+        },
+        "compile": {
+          "lib/net8.0/Wisej.Ext.FontAwesome.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/Wisej.Ext.FontAwesome.dll": {}
+        }
+      },
+      "Wisej-3-NavigationBar/3.5.16": {
+        "type": "package",
+        "dependencies": {
+          "Wisej-3": "3.5.16"
+        },
+        "compile": {
+          "lib/net8.0/Wisej.Web.Ext.NavigationBar.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Wisej.Web.Ext.NavigationBar.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Wisej-3-Notification/3.5.16": {
+        "type": "package",
+        "dependencies": {
+          "Wisej-3": "3.5.16"
+        },
+        "compile": {
+          "lib/net8.0/Wisej.Web.Ext.Notification.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Wisej.Web.Ext.Notification.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.CSharp/4.7.0": {
+      "sha512": "pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
+      "type": "package",
+      "path": "microsoft.csharp/4.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/netcore50/Microsoft.CSharp.dll",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.3/Microsoft.CSharp.dll",
+        "lib/netstandard2.0/Microsoft.CSharp.dll",
+        "lib/netstandard2.0/Microsoft.CSharp.xml",
+        "lib/portable-net45+win8+wp8+wpa81/_._",
+        "lib/uap10.0.16299/_._",
+        "lib/win8/_._",
+        "lib/wp80/_._",
+        "lib/wpa81/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "microsoft.csharp.4.7.0.nupkg.sha512",
+        "microsoft.csharp.nuspec",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/netcore50/Microsoft.CSharp.dll",
+        "ref/netcore50/Microsoft.CSharp.xml",
+        "ref/netcore50/de/Microsoft.CSharp.xml",
+        "ref/netcore50/es/Microsoft.CSharp.xml",
+        "ref/netcore50/fr/Microsoft.CSharp.xml",
+        "ref/netcore50/it/Microsoft.CSharp.xml",
+        "ref/netcore50/ja/Microsoft.CSharp.xml",
+        "ref/netcore50/ko/Microsoft.CSharp.xml",
+        "ref/netcore50/ru/Microsoft.CSharp.xml",
+        "ref/netcore50/zh-hans/Microsoft.CSharp.xml",
+        "ref/netcore50/zh-hant/Microsoft.CSharp.xml",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard1.0/Microsoft.CSharp.dll",
+        "ref/netstandard1.0/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/de/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/es/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/fr/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/it/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/ja/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/ko/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/ru/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/zh-hans/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/zh-hant/Microsoft.CSharp.xml",
+        "ref/netstandard2.0/Microsoft.CSharp.dll",
+        "ref/netstandard2.0/Microsoft.CSharp.xml",
+        "ref/portable-net45+win8+wp8+wpa81/_._",
+        "ref/uap10.0.16299/_._",
+        "ref/win8/_._",
+        "ref/wp80/_._",
+        "ref/wpa81/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "Microsoft.Win32.SystemEvents/6.0.0": {
+      "sha512": "hqTM5628jSsQiv+HGpiq3WKBl2c8v1KZfby2J6Pr7pEPlK9waPdgEO6b8A/+/xn/yZ9ulv8HuqK71ONy2tg67A==",
+      "type": "package",
+      "path": "microsoft.win32.systemevents/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/netcoreapp2.0/Microsoft.Win32.SystemEvents.targets",
+        "buildTransitive/netcoreapp3.1/_._",
+        "lib/net461/Microsoft.Win32.SystemEvents.dll",
+        "lib/net461/Microsoft.Win32.SystemEvents.xml",
+        "lib/net6.0/Microsoft.Win32.SystemEvents.dll",
+        "lib/net6.0/Microsoft.Win32.SystemEvents.xml",
+        "lib/netcoreapp3.1/Microsoft.Win32.SystemEvents.dll",
+        "lib/netcoreapp3.1/Microsoft.Win32.SystemEvents.xml",
+        "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll",
+        "lib/netstandard2.0/Microsoft.Win32.SystemEvents.xml",
+        "microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+        "microsoft.win32.systemevents.nuspec",
+        "runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll",
+        "runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.xml",
+        "runtimes/win/lib/netcoreapp3.1/Microsoft.Win32.SystemEvents.dll",
+        "runtimes/win/lib/netcoreapp3.1/Microsoft.Win32.SystemEvents.xml",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "runtime.native.System.Data.SqlClient.sni/4.4.0": {
+      "sha512": "A8v6PGmk+UGbfWo5Ixup0lPM4swuSwOiayJExZwKIOjTlFFQIsu3QnDXECosBEyrWSPryxBVrdqtJyhK3BaupQ==",
+      "type": "package",
+      "path": "runtime.native.system.data.sqlclient.sni/4.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+        "runtime.native.system.data.sqlclient.sni.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "runtime.win-arm64.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+      "sha512": "LbrynESTp3bm5O/+jGL8v0Qg5SJlTV08lpIpFesXjF6uGNMWqFnUQbYBJwZTeua6E/Y7FIM1C54Ey1btLWupdg==",
+      "type": "package",
+      "path": "runtime.win-arm64.runtime.native.system.data.sqlclient.sni/4.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+        "runtime.win-arm64.runtime.native.system.data.sqlclient.sni.nuspec",
+        "runtimes/win-arm64/native/sni.dll",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "runtime.win-x64.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+      "sha512": "38ugOfkYJqJoX9g6EYRlZB5U2ZJH51UP8ptxZgdpS07FgOEToV+lS11ouNK2PM12Pr6X/PpT5jK82G3DwH/SxQ==",
+      "type": "package",
+      "path": "runtime.win-x64.runtime.native.system.data.sqlclient.sni/4.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+        "runtime.win-x64.runtime.native.system.data.sqlclient.sni.nuspec",
+        "runtimes/win-x64/native/sni.dll",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "runtime.win-x86.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+      "sha512": "YhEdSQUsTx+C8m8Bw7ar5/VesXvCFMItyZF7G1AUY+OM0VPZUOeAVpJ4Wl6fydBGUYZxojTDR3I6Bj/+BPkJNA==",
+      "type": "package",
+      "path": "runtime.win-x86.runtime.native.system.data.sqlclient.sni/4.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+        "runtime.win-x86.runtime.native.system.data.sqlclient.sni.nuspec",
+        "runtimes/win-x86/native/sni.dll",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Configuration.ConfigurationManager/8.0.0": {
+      "sha512": "JlYi9XVvIREURRUlGMr1F6vOFLk7YSY4p1vHo4kX3tQ0AGrjqlRWHDi66ImHhy6qwXBG3BJ6Y1QlYQ+Qz6Xgww==",
+      "type": "package",
+      "path": "system.configuration.configurationmanager/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.Configuration.ConfigurationManager.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/System.Configuration.ConfigurationManager.targets",
+        "lib/net462/System.Configuration.ConfigurationManager.dll",
+        "lib/net462/System.Configuration.ConfigurationManager.xml",
+        "lib/net6.0/System.Configuration.ConfigurationManager.dll",
+        "lib/net6.0/System.Configuration.ConfigurationManager.xml",
+        "lib/net7.0/System.Configuration.ConfigurationManager.dll",
+        "lib/net7.0/System.Configuration.ConfigurationManager.xml",
+        "lib/net8.0/System.Configuration.ConfigurationManager.dll",
+        "lib/net8.0/System.Configuration.ConfigurationManager.xml",
+        "lib/netstandard2.0/System.Configuration.ConfigurationManager.dll",
+        "lib/netstandard2.0/System.Configuration.ConfigurationManager.xml",
+        "system.configuration.configurationmanager.8.0.0.nupkg.sha512",
+        "system.configuration.configurationmanager.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "System.Data.SqlClient/4.9.0": {
+      "sha512": "j4KJO+vC62NyUtNHz854njEqXbT8OmAa5jb1nrGfYWBOcggyYUQE0w/snXeaCjdvkSKWuUD+hfvlbN8pTrJTXg==",
+      "type": "package",
+      "path": "system.data.sqlclient/4.9.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "PACKAGE.md",
+        "buildTransitive/net461/System.Data.SqlClient.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/System.Data.SqlClient.targets",
+        "lib/net462/System.Data.SqlClient.dll",
+        "lib/net462/System.Data.SqlClient.xml",
+        "lib/net6.0/System.Data.SqlClient.dll",
+        "lib/net6.0/System.Data.SqlClient.xml",
+        "lib/net8.0/System.Data.SqlClient.dll",
+        "lib/net8.0/System.Data.SqlClient.xml",
+        "lib/netstandard2.0/System.Data.SqlClient.dll",
+        "lib/netstandard2.0/System.Data.SqlClient.xml",
+        "runtimes/unix/lib/net6.0/System.Data.SqlClient.dll",
+        "runtimes/unix/lib/net6.0/System.Data.SqlClient.xml",
+        "runtimes/unix/lib/net8.0/System.Data.SqlClient.dll",
+        "runtimes/unix/lib/net8.0/System.Data.SqlClient.xml",
+        "runtimes/win/lib/net6.0/System.Data.SqlClient.dll",
+        "runtimes/win/lib/net6.0/System.Data.SqlClient.xml",
+        "runtimes/win/lib/net8.0/System.Data.SqlClient.dll",
+        "runtimes/win/lib/net8.0/System.Data.SqlClient.xml",
+        "system.data.sqlclient.4.9.0.nupkg.sha512",
+        "system.data.sqlclient.nuspec"
+      ]
+    },
+    "System.Diagnostics.EventLog/8.0.0": {
+      "sha512": "fdYxcRjQqTTacKId/2IECojlDSFvp7LP5N78+0z/xH7v/Tuw5ZAxu23Y6PTCRinqyu2ePx+Gn1098NC6jM6d+A==",
+      "type": "package",
+      "path": "system.diagnostics.eventlog/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.Diagnostics.EventLog.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/System.Diagnostics.EventLog.targets",
+        "lib/net462/System.Diagnostics.EventLog.dll",
+        "lib/net462/System.Diagnostics.EventLog.xml",
+        "lib/net6.0/System.Diagnostics.EventLog.dll",
+        "lib/net6.0/System.Diagnostics.EventLog.xml",
+        "lib/net7.0/System.Diagnostics.EventLog.dll",
+        "lib/net7.0/System.Diagnostics.EventLog.xml",
+        "lib/net8.0/System.Diagnostics.EventLog.dll",
+        "lib/net8.0/System.Diagnostics.EventLog.xml",
+        "lib/netstandard2.0/System.Diagnostics.EventLog.dll",
+        "lib/netstandard2.0/System.Diagnostics.EventLog.xml",
+        "runtimes/win/lib/net6.0/System.Diagnostics.EventLog.Messages.dll",
+        "runtimes/win/lib/net6.0/System.Diagnostics.EventLog.dll",
+        "runtimes/win/lib/net6.0/System.Diagnostics.EventLog.xml",
+        "runtimes/win/lib/net7.0/System.Diagnostics.EventLog.Messages.dll",
+        "runtimes/win/lib/net7.0/System.Diagnostics.EventLog.dll",
+        "runtimes/win/lib/net7.0/System.Diagnostics.EventLog.xml",
+        "runtimes/win/lib/net8.0/System.Diagnostics.EventLog.Messages.dll",
+        "runtimes/win/lib/net8.0/System.Diagnostics.EventLog.dll",
+        "runtimes/win/lib/net8.0/System.Diagnostics.EventLog.xml",
+        "system.diagnostics.eventlog.8.0.0.nupkg.sha512",
+        "system.diagnostics.eventlog.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "System.Drawing.Common/6.0.0": {
+      "sha512": "NfuoKUiP2nUWwKZN6twGqXioIe1zVD0RIj2t976A+czLHr2nY454RwwXs6JU9Htc6mwqL6Dn/nEL3dpVf2jOhg==",
+      "type": "package",
+      "path": "system.drawing.common/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/netcoreapp2.0/System.Drawing.Common.targets",
+        "buildTransitive/netcoreapp3.1/_._",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net461/System.Drawing.Common.dll",
+        "lib/net461/System.Drawing.Common.xml",
+        "lib/net6.0/System.Drawing.Common.dll",
+        "lib/net6.0/System.Drawing.Common.xml",
+        "lib/netcoreapp3.1/System.Drawing.Common.dll",
+        "lib/netcoreapp3.1/System.Drawing.Common.xml",
+        "lib/netstandard2.0/System.Drawing.Common.dll",
+        "lib/netstandard2.0/System.Drawing.Common.xml",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "runtimes/unix/lib/net6.0/System.Drawing.Common.dll",
+        "runtimes/unix/lib/net6.0/System.Drawing.Common.xml",
+        "runtimes/unix/lib/netcoreapp3.1/System.Drawing.Common.dll",
+        "runtimes/unix/lib/netcoreapp3.1/System.Drawing.Common.xml",
+        "runtimes/win/lib/net6.0/System.Drawing.Common.dll",
+        "runtimes/win/lib/net6.0/System.Drawing.Common.xml",
+        "runtimes/win/lib/netcoreapp3.1/System.Drawing.Common.dll",
+        "runtimes/win/lib/netcoreapp3.1/System.Drawing.Common.xml",
+        "system.drawing.common.6.0.0.nupkg.sha512",
+        "system.drawing.common.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "System.Resources.Extensions/8.0.0": {
+      "sha512": "psnQ6GRQOvt+evda5C4nD5EuV49mz2Tv0DD2JDVDEbE/TKoMukxSkGJcsBJ0pajpPuFRr67syFYlkJ4Wj6A5Zw==",
+      "type": "package",
+      "path": "system.resources.extensions/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.Resources.Extensions.targets",
+        "buildTransitive/net462/System.Resources.Extensions.targets",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/System.Resources.Extensions.targets",
+        "lib/net462/System.Resources.Extensions.dll",
+        "lib/net462/System.Resources.Extensions.xml",
+        "lib/net6.0/System.Resources.Extensions.dll",
+        "lib/net6.0/System.Resources.Extensions.xml",
+        "lib/net7.0/System.Resources.Extensions.dll",
+        "lib/net7.0/System.Resources.Extensions.xml",
+        "lib/net8.0/System.Resources.Extensions.dll",
+        "lib/net8.0/System.Resources.Extensions.xml",
+        "lib/netstandard2.0/System.Resources.Extensions.dll",
+        "lib/netstandard2.0/System.Resources.Extensions.xml",
+        "system.resources.extensions.8.0.0.nupkg.sha512",
+        "system.resources.extensions.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "System.Runtime.Caching/8.0.0": {
+      "sha512": "4TmlmvGp4kzZomm7J2HJn6IIx0UUrQyhBDyb5O1XiunZlQImXW+B8b7W/sTPcXhSf9rp5NR5aDtQllwbB5elOQ==",
+      "type": "package",
+      "path": "system.runtime.caching/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/System.Runtime.Caching.targets",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net462/_._",
+        "lib/net6.0/System.Runtime.Caching.dll",
+        "lib/net6.0/System.Runtime.Caching.xml",
+        "lib/net7.0/System.Runtime.Caching.dll",
+        "lib/net7.0/System.Runtime.Caching.xml",
+        "lib/net8.0/System.Runtime.Caching.dll",
+        "lib/net8.0/System.Runtime.Caching.xml",
+        "lib/netstandard2.0/System.Runtime.Caching.dll",
+        "lib/netstandard2.0/System.Runtime.Caching.xml",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "runtimes/win/lib/net6.0/System.Runtime.Caching.dll",
+        "runtimes/win/lib/net6.0/System.Runtime.Caching.xml",
+        "runtimes/win/lib/net7.0/System.Runtime.Caching.dll",
+        "runtimes/win/lib/net7.0/System.Runtime.Caching.xml",
+        "runtimes/win/lib/net8.0/System.Runtime.Caching.dll",
+        "runtimes/win/lib/net8.0/System.Runtime.Caching.xml",
+        "system.runtime.caching.8.0.0.nupkg.sha512",
+        "system.runtime.caching.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "System.Security.Cryptography.ProtectedData/8.0.0": {
+      "sha512": "+TUFINV2q2ifyXauQXRwy4CiBhqvDEDZeVJU7qfxya4aRYOKzVBpN+4acx25VcPB9ywUN6C0n8drWl110PhZEg==",
+      "type": "package",
+      "path": "system.security.cryptography.protecteddata/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.Security.Cryptography.ProtectedData.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/System.Security.Cryptography.ProtectedData.targets",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net462/System.Security.Cryptography.ProtectedData.dll",
+        "lib/net462/System.Security.Cryptography.ProtectedData.xml",
+        "lib/net6.0/System.Security.Cryptography.ProtectedData.dll",
+        "lib/net6.0/System.Security.Cryptography.ProtectedData.xml",
+        "lib/net7.0/System.Security.Cryptography.ProtectedData.dll",
+        "lib/net7.0/System.Security.Cryptography.ProtectedData.xml",
+        "lib/net8.0/System.Security.Cryptography.ProtectedData.dll",
+        "lib/net8.0/System.Security.Cryptography.ProtectedData.xml",
+        "lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll",
+        "lib/netstandard2.0/System.Security.Cryptography.ProtectedData.xml",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "system.security.cryptography.protecteddata.8.0.0.nupkg.sha512",
+        "system.security.cryptography.protecteddata.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Wisej-2/2.5.32": {
+      "sha512": "SGacBMk7GCsZQdapssEptAKFjF/VN/S7ipIGyUMhOikAq0qJ7ObUt4oMoEmyPusXFFxqoopLMCdj+fzi7jRMWQ==",
+      "type": "package",
+      "path": "wisej-2/2.5.32",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "EULA-2.0.txt",
+        "images/Wisej.png",
+        "lib/net48/Wisej.Framework.dll",
+        "lib/net48/Wisej.Framework.xml",
+        "lib/net48/de/Wisej.Framework.resources.dll",
+        "lib/net48/es/Wisej.Framework.resources.dll",
+        "lib/net48/fr/Wisej.Framework.resources.dll",
+        "lib/net48/it/Wisej.Framework.resources.dll",
+        "lib/net48/pt/Wisej.Framework.resources.dll",
+        "lib/net48/tr/Wisej.Framework.resources.dll",
+        "wisej-2.2.5.32.nupkg.sha512",
+        "wisej-2.nuspec"
+      ]
+    },
+    "Wisej-2-ElegantIcons/2.5.32": {
+      "sha512": "qwx9Hm6U0KBWzEguxvGxwDSKgDIoRtlWrX8zHJ4jKg5k3EeA6P7oKeyuCxJZ4U0XP8/sy2jA7NECADTl61C9uQ==",
+      "type": "package",
+      "path": "wisej-2-eleganticons/2.5.32",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "images/Wisej.png",
+        "lib/net48/Wisej.Ext.ElegantIcons.dll",
+        "wisej-2-eleganticons.2.5.32.nupkg.sha512",
+        "wisej-2-eleganticons.nuspec"
+      ]
+    },
+    "Wisej-2-VisualStudioIcons/2.5.32": {
+      "sha512": "3ggzQZOL4EBrCDFtI6fQf345avJnkyMzbq+duCge0MJSh/kkfk+I8+HvjwlWHaXp+58xnn18JZONVxSzN2rxqA==",
+      "type": "package",
+      "path": "wisej-2-visualstudioicons/2.5.32",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "images/Wisej.png",
+        "lib/net48/Wisej.Ext.VisualStudioIcons.dll",
+        "wisej-2-visualstudioicons.2.5.32.nupkg.sha512",
+        "wisej-2-visualstudioicons.nuspec"
+      ]
+    },
+    "Wisej-3/3.5.16": {
+      "sha512": "zSwvVpBr7arNu30hjErkbmV7dl4ApFUo0f5YILXazMe8bMO+uAtk7gL7v/gvqcRz7/0CgVYmrYuXUXB63trEEA==",
+      "type": "package",
+      "path": "wisej-3/3.5.16",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "EULA-3.1.txt",
+        "images/Wisej.png",
+        "lib/net48/Wisej.Framework.dll",
+        "lib/net48/Wisej.Framework.xml",
+        "lib/net48/de/Wisej.Framework.resources.dll",
+        "lib/net48/es/Wisej.Framework.resources.dll",
+        "lib/net48/fr/Wisej.Framework.resources.dll",
+        "lib/net48/it/Wisej.Framework.resources.dll",
+        "lib/net48/pt/Wisej.Framework.resources.dll",
+        "lib/net48/tr/Wisej.Framework.resources.dll",
+        "lib/net8.0-android21.0/Wisej.Framework.dll",
+        "lib/net8.0-android21.0/Wisej.Framework.xml",
+        "lib/net8.0-android21.0/cs/Wisej.Framework.resources.dll",
+        "lib/net8.0-android21.0/de/Wisej.Framework.resources.dll",
+        "lib/net8.0-android21.0/es/Wisej.Framework.resources.dll",
+        "lib/net8.0-android21.0/fr/Wisej.Framework.resources.dll",
+        "lib/net8.0-android21.0/it/Wisej.Framework.resources.dll",
+        "lib/net8.0-android21.0/ja/Wisej.Framework.resources.dll",
+        "lib/net8.0-android21.0/ko/Wisej.Framework.resources.dll",
+        "lib/net8.0-android21.0/pl/Wisej.Framework.resources.dll",
+        "lib/net8.0-android21.0/pt-BR/Wisej.Framework.resources.dll",
+        "lib/net8.0-android21.0/pt/Wisej.Framework.resources.dll",
+        "lib/net8.0-android21.0/ru/Wisej.Framework.resources.dll",
+        "lib/net8.0-android21.0/tr/Wisej.Framework.resources.dll",
+        "lib/net8.0-android21.0/zh-Hans/Wisej.Framework.resources.dll",
+        "lib/net8.0-android21.0/zh-Hant/Wisej.Framework.resources.dll",
+        "lib/net8.0-ios14.2/Wisej.Framework.dll",
+        "lib/net8.0-ios14.2/Wisej.Framework.xml",
+        "lib/net8.0-ios14.2/cs/Wisej.Framework.resources.dll",
+        "lib/net8.0-ios14.2/de/Wisej.Framework.resources.dll",
+        "lib/net8.0-ios14.2/es/Wisej.Framework.resources.dll",
+        "lib/net8.0-ios14.2/fr/Wisej.Framework.resources.dll",
+        "lib/net8.0-ios14.2/it/Wisej.Framework.resources.dll",
+        "lib/net8.0-ios14.2/ja/Wisej.Framework.resources.dll",
+        "lib/net8.0-ios14.2/ko/Wisej.Framework.resources.dll",
+        "lib/net8.0-ios14.2/pl/Wisej.Framework.resources.dll",
+        "lib/net8.0-ios14.2/pt-BR/Wisej.Framework.resources.dll",
+        "lib/net8.0-ios14.2/pt/Wisej.Framework.resources.dll",
+        "lib/net8.0-ios14.2/ru/Wisej.Framework.resources.dll",
+        "lib/net8.0-ios14.2/tr/Wisej.Framework.resources.dll",
+        "lib/net8.0-ios14.2/zh-Hans/Wisej.Framework.resources.dll",
+        "lib/net8.0-ios14.2/zh-Hant/Wisej.Framework.resources.dll",
+        "lib/net8.0-maccatalyst14.0/Wisej.Framework.dll",
+        "lib/net8.0-maccatalyst14.0/Wisej.Framework.xml",
+        "lib/net8.0-maccatalyst14.0/cs/Wisej.Framework.resources.dll",
+        "lib/net8.0-maccatalyst14.0/de/Wisej.Framework.resources.dll",
+        "lib/net8.0-maccatalyst14.0/es/Wisej.Framework.resources.dll",
+        "lib/net8.0-maccatalyst14.0/fr/Wisej.Framework.resources.dll",
+        "lib/net8.0-maccatalyst14.0/it/Wisej.Framework.resources.dll",
+        "lib/net8.0-maccatalyst14.0/ja/Wisej.Framework.resources.dll",
+        "lib/net8.0-maccatalyst14.0/ko/Wisej.Framework.resources.dll",
+        "lib/net8.0-maccatalyst14.0/pl/Wisej.Framework.resources.dll",
+        "lib/net8.0-maccatalyst14.0/pt-BR/Wisej.Framework.resources.dll",
+        "lib/net8.0-maccatalyst14.0/pt/Wisej.Framework.resources.dll",
+        "lib/net8.0-maccatalyst14.0/ru/Wisej.Framework.resources.dll",
+        "lib/net8.0-maccatalyst14.0/tr/Wisej.Framework.resources.dll",
+        "lib/net8.0-maccatalyst14.0/zh-Hans/Wisej.Framework.resources.dll",
+        "lib/net8.0-maccatalyst14.0/zh-Hant/Wisej.Framework.resources.dll",
+        "lib/net8.0-windows10.0.19041.0/Wisej.Framework.dll",
+        "lib/net8.0-windows10.0.19041.0/Wisej.Framework.xml",
+        "lib/net8.0-windows10.0.19041.0/cs/Wisej.Framework.resources.dll",
+        "lib/net8.0-windows10.0.19041.0/de/Wisej.Framework.resources.dll",
+        "lib/net8.0-windows10.0.19041.0/es/Wisej.Framework.resources.dll",
+        "lib/net8.0-windows10.0.19041.0/fr/Wisej.Framework.resources.dll",
+        "lib/net8.0-windows10.0.19041.0/it/Wisej.Framework.resources.dll",
+        "lib/net8.0-windows10.0.19041.0/ja/Wisej.Framework.resources.dll",
+        "lib/net8.0-windows10.0.19041.0/ko/Wisej.Framework.resources.dll",
+        "lib/net8.0-windows10.0.19041.0/pl/Wisej.Framework.resources.dll",
+        "lib/net8.0-windows10.0.19041.0/pt-BR/Wisej.Framework.resources.dll",
+        "lib/net8.0-windows10.0.19041.0/pt/Wisej.Framework.resources.dll",
+        "lib/net8.0-windows10.0.19041.0/ru/Wisej.Framework.resources.dll",
+        "lib/net8.0-windows10.0.19041.0/tr/Wisej.Framework.resources.dll",
+        "lib/net8.0-windows10.0.19041.0/zh-Hans/Wisej.Framework.resources.dll",
+        "lib/net8.0-windows10.0.19041.0/zh-Hant/Wisej.Framework.resources.dll",
+        "lib/net8.0/Wisej.Framework.dll",
+        "lib/net8.0/Wisej.Framework.xml",
+        "lib/net8.0/cs/Wisej.Framework.resources.dll",
+        "lib/net8.0/de/Wisej.Framework.resources.dll",
+        "lib/net8.0/es/Wisej.Framework.resources.dll",
+        "lib/net8.0/fr/Wisej.Framework.resources.dll",
+        "lib/net8.0/it/Wisej.Framework.resources.dll",
+        "lib/net8.0/ja/Wisej.Framework.resources.dll",
+        "lib/net8.0/ko/Wisej.Framework.resources.dll",
+        "lib/net8.0/pl/Wisej.Framework.resources.dll",
+        "lib/net8.0/pt-BR/Wisej.Framework.resources.dll",
+        "lib/net8.0/pt/Wisej.Framework.resources.dll",
+        "lib/net8.0/ru/Wisej.Framework.resources.dll",
+        "lib/net8.0/tr/Wisej.Framework.resources.dll",
+        "lib/net8.0/zh-Hans/Wisej.Framework.resources.dll",
+        "lib/net8.0/zh-Hant/Wisej.Framework.resources.dll",
+        "wisej-3.3.5.16.nupkg.sha512",
+        "wisej-3.nuspec"
+      ]
+    },
+    "Wisej-3-BootstrapIcons/3.5.16": {
+      "sha512": "aCotUjcT7vWbisMc8tbdbNjskeu6ZafeSV/4N/fw0J39dILY3ilZqFTzV8OjyFhjRTfrvdJ3GZyZqwqLEOcJ7w==",
+      "type": "package",
+      "path": "wisej-3-bootstrapicons/3.5.16",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "images/Wisej.png",
+        "lib/net48/Wisej.Ext.BootstrapIcons.dll",
+        "lib/net8.0/Wisej.Ext.BootstrapIcons.dll",
+        "wisej-3-bootstrapicons.3.5.16.nupkg.sha512",
+        "wisej-3-bootstrapicons.nuspec"
+      ]
+    },
+    "Wisej-3-FontAwesome/3.5.16": {
+      "sha512": "xwayvkUQhYQXNnWPY0wCp1PoBe/GUMjcOmHiRsxaPkHOiHyxUDkDoGzrVvrBbmleL90pbFBAhq4cmjBfn8fc3Q==",
+      "type": "package",
+      "path": "wisej-3-fontawesome/3.5.16",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "images/Wisej.png",
+        "lib/net48/Wisej.Ext.FontAwesome.dll",
+        "lib/net8.0/Wisej.Ext.FontAwesome.dll",
+        "wisej-3-fontawesome.3.5.16.nupkg.sha512",
+        "wisej-3-fontawesome.nuspec"
+      ]
+    },
+    "Wisej-3-NavigationBar/3.5.16": {
+      "sha512": "EN07P26/f05LnWla4DGPIraSrTOAlFTG4xhgRgeyuZML1YdH5tnQ1YLnuh9/xtOPxOabE2OW3GOf+nmktW87Ug==",
+      "type": "package",
+      "path": "wisej-3-navigationbar/3.5.16",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "images/Wisej.png",
+        "lib/net48/Wisej.Web.Ext.NavigationBar.dll",
+        "lib/net48/Wisej.Web.Ext.NavigationBar.xml",
+        "lib/net8.0-android21.0/Wisej.Web.Ext.NavigationBar.dll",
+        "lib/net8.0-android21.0/Wisej.Web.Ext.NavigationBar.xml",
+        "lib/net8.0-ios14.2/Wisej.Web.Ext.NavigationBar.dll",
+        "lib/net8.0-ios14.2/Wisej.Web.Ext.NavigationBar.xml",
+        "lib/net8.0-maccatalyst14.0/Wisej.Web.Ext.NavigationBar.dll",
+        "lib/net8.0-maccatalyst14.0/Wisej.Web.Ext.NavigationBar.xml",
+        "lib/net8.0-windows10.0.19041.0/Wisej.Web.Ext.NavigationBar.dll",
+        "lib/net8.0-windows10.0.19041.0/Wisej.Web.Ext.NavigationBar.xml",
+        "lib/net8.0/Wisej.Web.Ext.NavigationBar.dll",
+        "lib/net8.0/Wisej.Web.Ext.NavigationBar.xml",
+        "wisej-3-navigationbar.3.5.16.nupkg.sha512",
+        "wisej-3-navigationbar.nuspec"
+      ]
+    },
+    "Wisej-3-Notification/3.5.16": {
+      "sha512": "4DNgsxBlZtsJ0AgeFsWtJGNwIoU5lRCx/DZ+G9hxs4Nzj5O9L7DdGE8cUo7THDvUwrtkyqQZp6rh1NjzfOh3Yg==",
+      "type": "package",
+      "path": "wisej-3-notification/3.5.16",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "images/Wisej.png",
+        "lib/net48/Wisej.Web.Ext.Notification.dll",
+        "lib/net48/Wisej.Web.Ext.Notification.xml",
+        "lib/net8.0-android21.0/Wisej.Web.Ext.Notification.dll",
+        "lib/net8.0-android21.0/Wisej.Web.Ext.Notification.xml",
+        "lib/net8.0-ios14.2/Wisej.Web.Ext.Notification.dll",
+        "lib/net8.0-ios14.2/Wisej.Web.Ext.Notification.xml",
+        "lib/net8.0-maccatalyst14.0/Wisej.Web.Ext.Notification.dll",
+        "lib/net8.0-maccatalyst14.0/Wisej.Web.Ext.Notification.xml",
+        "lib/net8.0-windows10.0.19041.0/Wisej.Web.Ext.Notification.dll",
+        "lib/net8.0-windows10.0.19041.0/Wisej.Web.Ext.Notification.xml",
+        "lib/net8.0/Wisej.Web.Ext.Notification.dll",
+        "lib/net8.0/Wisej.Web.Ext.Notification.xml",
+        "wisej-3-notification.3.5.16.nupkg.sha512",
+        "wisej-3-notification.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.8": [
+      "System.Data.SqlClient >= 4.*",
+      "Wisej-2-ElegantIcons >= 2.5.32",
+      "Wisej-2-VisualStudioIcons >= 2.5.32",
+      "Wisej-3 >= 3.5.*",
+      "Wisej-3-BootstrapIcons >= 3.5.16",
+      "Wisej-3-FontAwesome >= 3.5.16",
+      "Wisej-3-NavigationBar >= 3.5.16",
+      "Wisej-3-Notification >= 3.5.16"
+    ],
+    "net8.0": [
+      "System.Data.SqlClient >= 4.*",
+      "Wisej-2-ElegantIcons >= 2.5.32",
+      "Wisej-2-VisualStudioIcons >= 2.5.32",
+      "Wisej-3 >= 3.5.*",
+      "Wisej-3-BootstrapIcons >= 3.5.16",
+      "Wisej-3-FontAwesome >= 3.5.16",
+      "Wisej-3-NavigationBar >= 3.5.16",
+      "Wisej-3-Notification >= 3.5.16"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\B1\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\B1\\Desktop\\WiseJTest\\WebApplicationTest\\WiseJFirstApp\\WiseJFirstApp.csproj",
+      "projectName": "WiseJFirstApp",
+      "projectPath": "C:\\Users\\B1\\Desktop\\WiseJTest\\WebApplicationTest\\WiseJFirstApp\\WiseJFirstApp.csproj",
+      "packagesPath": "C:\\Users\\B1\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\B1\\Desktop\\WiseJTest\\WebApplicationTest\\WiseJFirstApp\\obj\\",
+      "projectStyle": "PackageReference",
+      "crossTargeting": true,
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\B1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net48",
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {}
+        },
+        "net48": {
+          "targetAlias": "net48",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.200"
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "dependencies": {
+          "System.Data.SqlClient": {
+            "target": "Package",
+            "version": "[4.*, )"
+          },
+          "Wisej-2-ElegantIcons": {
+            "target": "Package",
+            "version": "[2.5.32, )"
+          },
+          "Wisej-2-VisualStudioIcons": {
+            "target": "Package",
+            "version": "[2.5.32, )"
+          },
+          "Wisej-3": {
+            "target": "Package",
+            "version": "[3.5.*, )"
+          },
+          "Wisej-3-BootstrapIcons": {
+            "target": "Package",
+            "version": "[3.5.16, )"
+          },
+          "Wisej-3-FontAwesome": {
+            "target": "Package",
+            "version": "[3.5.16, )"
+          },
+          "Wisej-3-NavigationBar": {
+            "target": "Package",
+            "version": "[3.5.16, )"
+          },
+          "Wisej-3-Notification": {
+            "target": "Package",
+            "version": "[3.5.16, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+      },
+      "net48": {
+        "targetAlias": "net48",
+        "dependencies": {
+          "System.Data.SqlClient": {
+            "target": "Package",
+            "version": "[4.*, )"
+          },
+          "Wisej-2-ElegantIcons": {
+            "target": "Package",
+            "version": "[2.5.32, )"
+          },
+          "Wisej-2-VisualStudioIcons": {
+            "target": "Package",
+            "version": "[2.5.32, )"
+          },
+          "Wisej-3": {
+            "target": "Package",
+            "version": "[3.5.*, )"
+          },
+          "Wisej-3-BootstrapIcons": {
+            "target": "Package",
+            "version": "[3.5.16, )"
+          },
+          "Wisej-3-FontAwesome": {
+            "target": "Package",
+            "version": "[3.5.16, )"
+          },
+          "Wisej-3-NavigationBar": {
+            "target": "Package",
+            "version": "[3.5.16, )"
+          },
+          "Wisej-3-Notification": {
+            "target": "Package",
+            "version": "[3.5.16, )"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Wisej-2 2.5.32' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Wisej-2",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Wisej-2-ElegantIcons 2.5.32' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Wisej-2-ElegantIcons",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Wisej-2-VisualStudioIcons 2.5.32' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Wisej-2-VisualStudioIcons",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "version": 2,
+  "dgSpecHash": "t827ztnoTcU=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\B1\\Desktop\\WiseJTest\\WebApplicationTest\\WiseJFirstApp\\WiseJFirstApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\B1\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\B1\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "C:\\Users\\B1\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\B1\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\B1\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\B1\\.nuget\\packages\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\B1\\.nuget\\packages\\system.configuration.configurationmanager\\8.0.0\\system.configuration.configurationmanager.8.0.0.nupkg.sha512",
+    "C:\\Users\\B1\\.nuget\\packages\\system.data.sqlclient\\4.9.0\\system.data.sqlclient.4.9.0.nupkg.sha512",
+    "C:\\Users\\B1\\.nuget\\packages\\system.diagnostics.eventlog\\8.0.0\\system.diagnostics.eventlog.8.0.0.nupkg.sha512",
+    "C:\\Users\\B1\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512",
+    "C:\\Users\\B1\\.nuget\\packages\\system.resources.extensions\\8.0.0\\system.resources.extensions.8.0.0.nupkg.sha512",
+    "C:\\Users\\B1\\.nuget\\packages\\system.runtime.caching\\8.0.0\\system.runtime.caching.8.0.0.nupkg.sha512",
+    "C:\\Users\\B1\\.nuget\\packages\\system.security.cryptography.protecteddata\\8.0.0\\system.security.cryptography.protecteddata.8.0.0.nupkg.sha512",
+    "C:\\Users\\B1\\.nuget\\packages\\wisej-2\\2.5.32\\wisej-2.2.5.32.nupkg.sha512",
+    "C:\\Users\\B1\\.nuget\\packages\\wisej-2-eleganticons\\2.5.32\\wisej-2-eleganticons.2.5.32.nupkg.sha512",
+    "C:\\Users\\B1\\.nuget\\packages\\wisej-2-visualstudioicons\\2.5.32\\wisej-2-visualstudioicons.2.5.32.nupkg.sha512",
+    "C:\\Users\\B1\\.nuget\\packages\\wisej-3\\3.5.16\\wisej-3.3.5.16.nupkg.sha512",
+    "C:\\Users\\B1\\.nuget\\packages\\wisej-3-bootstrapicons\\3.5.16\\wisej-3-bootstrapicons.3.5.16.nupkg.sha512",
+    "C:\\Users\\B1\\.nuget\\packages\\wisej-3-fontawesome\\3.5.16\\wisej-3-fontawesome.3.5.16.nupkg.sha512",
+    "C:\\Users\\B1\\.nuget\\packages\\wisej-3-navigationbar\\3.5.16\\wisej-3-navigationbar.3.5.16.nupkg.sha512",
+    "C:\\Users\\B1\\.nuget\\packages\\wisej-3-notification\\3.5.16\\wisej-3-notification.3.5.16.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Wisej-2 2.5.32' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Wisej-2",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Wisej-2-ElegantIcons 2.5.32' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Wisej-2-ElegantIcons",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Wisej-2-VisualStudioIcons 2.5.32' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Wisej-2-VisualStudioIcons",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,454 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "WiseJFirstApp/1.0.0": {
+        "dependencies": {
+          "System.Data.SqlClient": "4.9.0",
+          "Wisej-2-ElegantIcons": "2.5.32",
+          "Wisej-2-VisualStudioIcons": "2.5.32",
+          "Wisej-3": "3.5.16",
+          "Wisej-3-BootstrapIcons": "3.5.16",
+          "Wisej-3-FontAwesome": "3.5.16",
+          "Wisej-3-NavigationBar": "3.5.16",
+          "Wisej-3-Notification": "3.5.16"
+        },
+        "runtime": {
+          "WiseJFirstApp.dll": {}
+        }
+      },
+      "Microsoft.CSharp/4.7.0": {},
+      "Microsoft.Win32.SystemEvents/6.0.0": {
+        "runtime": {
+          "lib/net6.0/Microsoft.Win32.SystemEvents.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
+      "runtime.native.System.Data.SqlClient.sni/4.4.0": {
+        "dependencies": {
+          "runtime.win-arm64.runtime.native.System.Data.SqlClient.sni": "4.4.0",
+          "runtime.win-x64.runtime.native.System.Data.SqlClient.sni": "4.4.0",
+          "runtime.win-x86.runtime.native.System.Data.SqlClient.sni": "4.4.0"
+        }
+      },
+      "runtime.win-arm64.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+        "runtimeTargets": {
+          "runtimes/win-arm64/native/sni.dll": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "4.6.25512.1"
+          }
+        }
+      },
+      "runtime.win-x64.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+        "runtimeTargets": {
+          "runtimes/win-x64/native/sni.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "4.6.25512.1"
+          }
+        }
+      },
+      "runtime.win-x86.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+        "runtimeTargets": {
+          "runtimes/win-x86/native/sni.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "4.6.25512.1"
+          }
+        }
+      },
+      "System.Configuration.ConfigurationManager/8.0.0": {
+        "dependencies": {
+          "System.Diagnostics.EventLog": "8.0.0",
+          "System.Security.Cryptography.ProtectedData": "8.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/System.Configuration.ConfigurationManager.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        }
+      },
+      "System.Data.SqlClient/4.9.0": {
+        "dependencies": {
+          "runtime.native.System.Data.SqlClient.sni": "4.4.0"
+        },
+        "runtime": {
+          "lib/net8.0/System.Data.SqlClient.dll": {
+            "assemblyVersion": "4.6.1.6",
+            "fileVersion": "4.900.24.56208"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/net8.0/System.Data.SqlClient.dll": {
+            "rid": "unix",
+            "assetType": "runtime",
+            "assemblyVersion": "4.6.1.6",
+            "fileVersion": "4.900.24.56208"
+          },
+          "runtimes/win/lib/net8.0/System.Data.SqlClient.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.6.1.6",
+            "fileVersion": "4.900.24.56208"
+          }
+        }
+      },
+      "System.Diagnostics.EventLog/8.0.0": {},
+      "System.Drawing.Common/6.0.0": {
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/System.Drawing.Common.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/net6.0/System.Drawing.Common.dll": {
+            "rid": "unix",
+            "assetType": "runtime",
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          },
+          "runtimes/win/lib/net6.0/System.Drawing.Common.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
+      "System.Resources.Extensions/8.0.0": {
+        "runtime": {
+          "lib/net8.0/System.Resources.Extensions.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        }
+      },
+      "System.Runtime.Caching/8.0.0": {
+        "dependencies": {
+          "System.Configuration.ConfigurationManager": "8.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/System.Runtime.Caching.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net8.0/System.Runtime.Caching.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        }
+      },
+      "System.Security.Cryptography.ProtectedData/8.0.0": {
+        "runtime": {
+          "lib/net8.0/System.Security.Cryptography.ProtectedData.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        }
+      },
+      "Wisej-2/2.5.32": {},
+      "Wisej-2-ElegantIcons/2.5.32": {
+        "dependencies": {
+          "Wisej-2": "2.5.32"
+        },
+        "runtime": {
+          "lib/net48/Wisej.Ext.ElegantIcons.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.5.32.0"
+          }
+        }
+      },
+      "Wisej-2-VisualStudioIcons/2.5.32": {
+        "dependencies": {
+          "Wisej-2": "2.5.32"
+        },
+        "runtime": {
+          "lib/net48/Wisej.Ext.VisualStudioIcons.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.5.32.0"
+          }
+        }
+      },
+      "Wisej-3/3.5.16": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0",
+          "System.Drawing.Common": "6.0.0",
+          "System.Resources.Extensions": "8.0.0",
+          "System.Runtime.Caching": "8.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/Wisej.Framework.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.5.16.5"
+          }
+        },
+        "resources": {
+          "lib/net8.0/cs/Wisej.Framework.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/net8.0/de/Wisej.Framework.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net8.0/es/Wisej.Framework.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net8.0/fr/Wisej.Framework.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net8.0/it/Wisej.Framework.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net8.0/ja/Wisej.Framework.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net8.0/ko/Wisej.Framework.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net8.0/pl/Wisej.Framework.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/net8.0/pt-BR/Wisej.Framework.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net8.0/pt/Wisej.Framework.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net8.0/ru/Wisej.Framework.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net8.0/tr/Wisej.Framework.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net8.0/zh-Hans/Wisej.Framework.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/net8.0/zh-Hant/Wisej.Framework.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "Wisej-3-BootstrapIcons/3.5.16": {
+        "dependencies": {
+          "Wisej-3": "3.5.16"
+        },
+        "runtime": {
+          "lib/net8.0/Wisej.Ext.BootstrapIcons.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.5.16.5"
+          }
+        }
+      },
+      "Wisej-3-FontAwesome/3.5.16": {
+        "dependencies": {
+          "Wisej-3": "3.5.16"
+        },
+        "runtime": {
+          "lib/net8.0/Wisej.Ext.FontAwesome.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.5.16.5"
+          }
+        }
+      },
+      "Wisej-3-NavigationBar/3.5.16": {
+        "dependencies": {
+          "Wisej-3": "3.5.16"
+        },
+        "runtime": {
+          "lib/net8.0/Wisej.Web.Ext.NavigationBar.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.5.16.5"
+          }
+        }
+      },
+      "Wisej-3-Notification/3.5.16": {
+        "dependencies": {
+          "Wisej-3": "3.5.16"
+        },
+        "runtime": {
+          "lib/net8.0/Wisej.Web.Ext.Notification.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.5.16.5"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WiseJFirstApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.CSharp/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
+      "path": "microsoft.csharp/4.7.0",
+      "hashPath": "microsoft.csharp.4.7.0.nupkg.sha512"
+    },
+    "Microsoft.Win32.SystemEvents/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hqTM5628jSsQiv+HGpiq3WKBl2c8v1KZfby2J6Pr7pEPlK9waPdgEO6b8A/+/xn/yZ9ulv8HuqK71ONy2tg67A==",
+      "path": "microsoft.win32.systemevents/6.0.0",
+      "hashPath": "microsoft.win32.systemevents.6.0.0.nupkg.sha512"
+    },
+    "runtime.native.System.Data.SqlClient.sni/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-A8v6PGmk+UGbfWo5Ixup0lPM4swuSwOiayJExZwKIOjTlFFQIsu3QnDXECosBEyrWSPryxBVrdqtJyhK3BaupQ==",
+      "path": "runtime.native.system.data.sqlclient.sni/4.4.0",
+      "hashPath": "runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512"
+    },
+    "runtime.win-arm64.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LbrynESTp3bm5O/+jGL8v0Qg5SJlTV08lpIpFesXjF6uGNMWqFnUQbYBJwZTeua6E/Y7FIM1C54Ey1btLWupdg==",
+      "path": "runtime.win-arm64.runtime.native.system.data.sqlclient.sni/4.4.0",
+      "hashPath": "runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512"
+    },
+    "runtime.win-x64.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-38ugOfkYJqJoX9g6EYRlZB5U2ZJH51UP8ptxZgdpS07FgOEToV+lS11ouNK2PM12Pr6X/PpT5jK82G3DwH/SxQ==",
+      "path": "runtime.win-x64.runtime.native.system.data.sqlclient.sni/4.4.0",
+      "hashPath": "runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512"
+    },
+    "runtime.win-x86.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YhEdSQUsTx+C8m8Bw7ar5/VesXvCFMItyZF7G1AUY+OM0VPZUOeAVpJ4Wl6fydBGUYZxojTDR3I6Bj/+BPkJNA==",
+      "path": "runtime.win-x86.runtime.native.system.data.sqlclient.sni/4.4.0",
+      "hashPath": "runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512"
+    },
+    "System.Configuration.ConfigurationManager/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JlYi9XVvIREURRUlGMr1F6vOFLk7YSY4p1vHo4kX3tQ0AGrjqlRWHDi66ImHhy6qwXBG3BJ6Y1QlYQ+Qz6Xgww==",
+      "path": "system.configuration.configurationmanager/8.0.0",
+      "hashPath": "system.configuration.configurationmanager.8.0.0.nupkg.sha512"
+    },
+    "System.Data.SqlClient/4.9.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-j4KJO+vC62NyUtNHz854njEqXbT8OmAa5jb1nrGfYWBOcggyYUQE0w/snXeaCjdvkSKWuUD+hfvlbN8pTrJTXg==",
+      "path": "system.data.sqlclient/4.9.0",
+      "hashPath": "system.data.sqlclient.4.9.0.nupkg.sha512"
+    },
+    "System.Diagnostics.EventLog/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fdYxcRjQqTTacKId/2IECojlDSFvp7LP5N78+0z/xH7v/Tuw5ZAxu23Y6PTCRinqyu2ePx+Gn1098NC6jM6d+A==",
+      "path": "system.diagnostics.eventlog/8.0.0",
+      "hashPath": "system.diagnostics.eventlog.8.0.0.nupkg.sha512"
+    },
+    "System.Drawing.Common/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NfuoKUiP2nUWwKZN6twGqXioIe1zVD0RIj2t976A+czLHr2nY454RwwXs6JU9Htc6mwqL6Dn/nEL3dpVf2jOhg==",
+      "path": "system.drawing.common/6.0.0",
+      "hashPath": "system.drawing.common.6.0.0.nupkg.sha512"
+    },
+    "System.Resources.Extensions/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-psnQ6GRQOvt+evda5C4nD5EuV49mz2Tv0DD2JDVDEbE/TKoMukxSkGJcsBJ0pajpPuFRr67syFYlkJ4Wj6A5Zw==",
+      "path": "system.resources.extensions/8.0.0",
+      "hashPath": "system.resources.extensions.8.0.0.nupkg.sha512"
+    },
+    "System.Runtime.Caching/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4TmlmvGp4kzZomm7J2HJn6IIx0UUrQyhBDyb5O1XiunZlQImXW+B8b7W/sTPcXhSf9rp5NR5aDtQllwbB5elOQ==",
+      "path": "system.runtime.caching/8.0.0",
+      "hashPath": "system.runtime.caching.8.0.0.nupkg.sha512"
+    },
+    "System.Security.Cryptography.ProtectedData/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+TUFINV2q2ifyXauQXRwy4CiBhqvDEDZeVJU7qfxya4aRYOKzVBpN+4acx25VcPB9ywUN6C0n8drWl110PhZEg==",
+      "path": "system.security.cryptography.protecteddata/8.0.0",
+      "hashPath": "system.security.cryptography.protecteddata.8.0.0.nupkg.sha512"
+    },
+    "Wisej-2/2.5.32": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SGacBMk7GCsZQdapssEptAKFjF/VN/S7ipIGyUMhOikAq0qJ7ObUt4oMoEmyPusXFFxqoopLMCdj+fzi7jRMWQ==",
+      "path": "wisej-2/2.5.32",
+      "hashPath": "wisej-2.2.5.32.nupkg.sha512"
+    },
+    "Wisej-2-ElegantIcons/2.5.32": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qwx9Hm6U0KBWzEguxvGxwDSKgDIoRtlWrX8zHJ4jKg5k3EeA6P7oKeyuCxJZ4U0XP8/sy2jA7NECADTl61C9uQ==",
+      "path": "wisej-2-eleganticons/2.5.32",
+      "hashPath": "wisej-2-eleganticons.2.5.32.nupkg.sha512"
+    },
+    "Wisej-2-VisualStudioIcons/2.5.32": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3ggzQZOL4EBrCDFtI6fQf345avJnkyMzbq+duCge0MJSh/kkfk+I8+HvjwlWHaXp+58xnn18JZONVxSzN2rxqA==",
+      "path": "wisej-2-visualstudioicons/2.5.32",
+      "hashPath": "wisej-2-visualstudioicons.2.5.32.nupkg.sha512"
+    },
+    "Wisej-3/3.5.16": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zSwvVpBr7arNu30hjErkbmV7dl4ApFUo0f5YILXazMe8bMO+uAtk7gL7v/gvqcRz7/0CgVYmrYuXUXB63trEEA==",
+      "path": "wisej-3/3.5.16",
+      "hashPath": "wisej-3.3.5.16.nupkg.sha512"
+    },
+    "Wisej-3-BootstrapIcons/3.5.16": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aCotUjcT7vWbisMc8tbdbNjskeu6ZafeSV/4N/fw0J39dILY3ilZqFTzV8OjyFhjRTfrvdJ3GZyZqwqLEOcJ7w==",
+      "path": "wisej-3-bootstrapicons/3.5.16",
+      "hashPath": "wisej-3-bootstrapicons.3.5.16.nupkg.sha512"
+    },
+    "Wisej-3-FontAwesome/3.5.16": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xwayvkUQhYQXNnWPY0wCp1PoBe/GUMjcOmHiRsxaPkHOiHyxUDkDoGzrVvrBbmleL90pbFBAhq4cmjBfn8fc3Q==",
+      "path": "wisej-3-fontawesome/3.5.16",
+      "hashPath": "wisej-3-fontawesome.3.5.16.nupkg.sha512"
+    },
+    "Wisej-3-NavigationBar/3.5.16": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EN07P26/f05LnWla4DGPIraSrTOAlFTG4xhgRgeyuZML1YdH5tnQ1YLnuh9/xtOPxOabE2OW3GOf+nmktW87Ug==",
+      "path": "wisej-3-navigationbar/3.5.16",
+      "hashPath": "wisej-3-navigationbar.3.5.16.nupkg.sha512"
+    },
+    "Wisej-3-Notification/3.5.16": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4DNgsxBlZtsJ0AgeFsWtJGNwIoU5lRCx/DZ+G9hxs4Nzj5O9L7DdGE8cUo7THDvUwrtkyqQZp6rh1NjzfOh3Yg==",
+      "path": "wisej-3-notification/3.5.16",
+      "hashPath": "wisej-3-notification.3.5.16.nupkg.sha512"
+    }
+  }
+}
