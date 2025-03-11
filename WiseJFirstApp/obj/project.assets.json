@@ -1226,24 +1226,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\B1\\.nuget\\packages\\": {},
+    "C:\\Users\\Bircan\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\B1\\Desktop\\WiseJTest\\WebApplicationTest\\WiseJFirstApp\\WiseJFirstApp.csproj",
+      "projectUniqueName": "C:\\Users\\Bircan\\Documents\\Projekte\\WiseJ\\WiseJTestApp\\WiseJFirstApp\\WiseJFirstApp.csproj",
       "projectName": "WiseJFirstApp",
-      "projectPath": "C:\\Users\\B1\\Desktop\\WiseJTest\\WebApplicationTest\\WiseJFirstApp\\WiseJFirstApp.csproj",
-      "packagesPath": "C:\\Users\\B1\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\B1\\Desktop\\WiseJTest\\WebApplicationTest\\WiseJFirstApp\\obj\\",
+      "projectPath": "C:\\Users\\Bircan\\Documents\\Projekte\\WiseJ\\WiseJTestApp\\WiseJFirstApp\\WiseJFirstApp.csproj",
+      "packagesPath": "C:\\Users\\Bircan\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Bircan\\Documents\\Projekte\\WiseJ\\WiseJTestApp\\WiseJFirstApp\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\B1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Bircan\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1334,7 +1334,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
       },
       "net48": {
         "targetAlias": "net48",
@@ -1372,7 +1372,7 @@
             "version": "[3.5.16, )"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   },
@@ -1381,7 +1381,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Wisej-2 2.5.32' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "message": "Das Paket \"Wisej-2 2.5.32\" wurde nicht mit dem Projektzielframework \"net8.0\", sondern mit \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\" wiederhergestellt. Dieses Paket ist mit Ihrem Projekt möglicherweise nicht vollständig kompatibel.",
       "libraryId": "Wisej-2",
       "targetGraphs": [
         "net8.0"
@@ -1391,7 +1391,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Wisej-2-ElegantIcons 2.5.32' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "message": "Das Paket \"Wisej-2-ElegantIcons 2.5.32\" wurde nicht mit dem Projektzielframework \"net8.0\", sondern mit \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\" wiederhergestellt. Dieses Paket ist mit Ihrem Projekt möglicherweise nicht vollständig kompatibel.",
       "libraryId": "Wisej-2-ElegantIcons",
       "targetGraphs": [
         "net8.0"
@@ -1401,7 +1401,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Wisej-2-VisualStudioIcons 2.5.32' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "message": "Das Paket \"Wisej-2-VisualStudioIcons 2.5.32\" wurde nicht mit dem Projektzielframework \"net8.0\", sondern mit \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\" wiederhergestellt. Dieses Paket ist mit Ihrem Projekt möglicherweise nicht vollständig kompatibel.",
       "libraryId": "Wisej-2-VisualStudioIcons",
       "targetGraphs": [
         "net8.0"

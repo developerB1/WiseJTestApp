@@ -226,7 +226,7 @@
             this.Controls.Add(this.navigationBar1);
             this.Name = "Page1";
             this.ResponsiveProfiles.Add(((Wisej.Base.ResponsiveProfile)(resources.GetObject("$this.ResponsiveProfiles"))));
-            this.Size = new System.Drawing.Size(993, 638);
+            this.Size = new System.Drawing.Size(1465, 638);
             this.ResumeLayout(false);
             this.PerformLayout();
 
